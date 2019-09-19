@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="searchUpdateExample.css">
+    <script type="text/javascript" src="searchUpdateExample.js"></script>
+	</head>
+	<body>
+		<h3>Search by word</h3>
+  	<div class="autocomplete" style="width:100%;">
+    	<input id="myInput" type="search" name="myCountry" placeholder="Word">
+  	</div>
+  	<div id="searchHistory">
+  		<p>	
+  			<b style="float: left">Search history</b>
+  			<b class="clearHistory" onclick="clearSearch()">Clear search history</b><br clear="all">
+  			<p id="searchdata"></p>
+  		</p>
+  	</div>
+	</body>
+</html>
